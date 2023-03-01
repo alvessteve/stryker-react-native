@@ -9,6 +9,11 @@
     "dashboard"
   ],
   "testRunner": "jest",
+  "jest": {
+    "projectType": "create-react-app"
+  },
+  "checkers": ["typescript"],
+  "tsconfigFile": "tsconfig.json",
   "testRunner_comment": "Take a look at https://stryker-mutator.io/docs/stryker-js/jest-runner for information about the jest plugin.",
   "coverageAnalysis": "perTest"
 }
